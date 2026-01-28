@@ -1,8 +1,16 @@
-h1 {
+*{margin: 0;padding:0;box-sizing: border-box;}
+a{
+    text-decoration: none;
+    color:#373737
+}
+main{
+    margin: auto;
+    max-width: 1200px;
+    padding: 100px 0;
     background-color: aliceblue;
-    color: #fff;
+    min-height: 100vh;
 }
 
-p {
-    background-color: antiquewhite;
+header {
+    text-align: center;
 }
