@@ -1,29 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../css/about.css">
-</head>
-<body>
+    <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/about.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+  />
+  </head>
+  <body>
     <header>
-        <div class="inner">
-            <h1>
-                <a href="../index.html">
-                    LOGO
-                </a>
-            </h1>
-            <nav>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./service.html">Service</a></li>
-                <li><a href="./contact.html">Content</a></li>
-            </nav>
-        </div>
+      <div class="inner">
+        <h1>
+          <a href="../index.html"> LOGO </a>
+        </h1>
+        <nav>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./service.html">Service</a></li>
+          <li><a href="./content.html">Content</a></li>
+        </nav>
+      </div>
     </header>
+  
     <main>
         <h2>About page</h2>
+        <div class="swiper gallery">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide s01">
+            <div class="inner">
+              <div class="tit-wrap">
+                <h1 class="tit">Main</h1>
+                <p>
+                  다양한 핸드폰 악세서리를 만나보세요 <br />
+                 충전기와 케이스 팬슬 케이스를 만나보세요
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide s02">
+            <div class="inner">
+              <div class="tit-wrap">
+                <h1 class="tit">Main2</h1>
+                <p>
+                  다양한 종류의 케이스와 색상을 만나보세요 <br />
+                  좋은것들이 많아요
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide s03">
+            <div class="inner">
+              <div class="tit-wrap">
+                <h1 class="tit">Main3</h1>
+                <p>
+                   실리콘 케이스와 가죽케이스를 만나보세요<br />
+                  다양한 멕세이프 카드 지갑을 만나보세요
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
     </main>
-</body>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+      <script src="../js/app.js"></script>
+  </body>
 </html>

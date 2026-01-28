@@ -1,12 +1,11 @@
-var swiper = new Swiper(".gallery", {
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-
-    pagination: {
+ var swiper = new Swiper(".gallery", {
+      pagination: {
         el: ".swiper-pagination",
-    },
-
-    loop:true
-});
+      },
+    navigation: {
+        nextEl: ".gallery .swiper-button-next",
+        prevEl: ".gallery .swiper-button-prev",
+      },
+    loop: true,
+    // autoplay: true     
+  });
