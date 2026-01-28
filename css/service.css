@@ -1,0 +1,79 @@
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.main .inner .detail-list {
+    margin: 20px;
+}
+
+.main .detail-item span, .main .detail-item p {
+    display: inline-block;
+}
+
+
+.main .gallery {
+    height: 300px;
+    /* background: red; */
+}
+
+.main .gallery .swiper-slide {
+    display: flex;
+    
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main .gallery .swiper-slide p {
+    background: rgba(191, 251, 255, 0.616);
+    font-size: 32px;
+    padding: 20px;
+}
+
+.main .gallery .swiper-slide.s01 {
+    background-image: url(../img/hmy-img1.png);
+    justify-content: flex-start;
+}
+.main .gallery .swiper-slide.s02 {
+    background-image: url(../img/hmy-img2.png);
+    justify-content: center;
+}
+.main .gallery .swiper-slide.s03 {
+    background-image: url(../img/hmy-img3.png);
+    justify-content: flex-end;
+}
+
+.main .gallery .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    background: rgb(159, 159, 255);
+    opacity: 0.5;
+    transition: width .3s;
+}
+
+.main .gallery .swiper-pagination-bullet-active {
+    width: 30px;
+    opacity: 1;
+}
+
+.main .content {
+    width: 100%;
+    height: 100px;
+    background: red;
+}
+
+.main .menu-list {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.main .menu-list .menu-item {
+    cursor: pointer;
+}

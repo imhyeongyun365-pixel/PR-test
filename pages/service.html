@@ -6,6 +6,8 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/service.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
 </head>
 <body>
     <header>
@@ -18,12 +20,60 @@
             <nav>
                 <li><a href="./about.html">About</a></li>
                 <li><a href="./service.html">Service</a></li>
-                <li><a href="./content.html">Content</a></li>
+                <li><a href="./contact.html">Content</a></li>
             </nav>
         </div>
     </header>
-    <main>
-        <h2>Service page</h2>
+    <main class="main">
+        <div class="inner">
+            <h1 class="title">Service</h1>
+            <ul class="detail-list">
+                <li class="detail-item">
+                    <span>상담원:</span>
+                    <p>010-1234-5678</p>
+                </li>
+                <li class="detail-item">
+                    <span>상담센터:</span>
+                    <p>000-1234-5678</p>
+                </li>
+                <li class="detail-item">
+                    <span>책임자:</span>
+                    <p>OOO</p>
+                </li>
+                <li class="detail-item">
+                    <span>장소:</span>
+                    <p>경복대학교</p>
+                </li>
+            </ul>
+        </div>
+        <div class="swiper gallery">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide s01"><p>imge01</p></div>
+                <div class="swiper-slide s02"><p>imge02</p></div>
+                <div class="swiper-slide s03"><p>imge03</p></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="tab">
+            <div class="content-wrap">
+                <div class="content c0"></div>
+                <div class="content c1"></div>
+                <div class="content c2"></div>
+            </div>
+            <ul class="menu-list">
+                <li class="menu-item">menu0</li>
+                <li class="menu-item">menu1</li>
+                <li class="menu-item">menu2</li>
+            </ul>
+        </div>
     </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <script src="../js/app.js"></script>
 </body>
 </html>
