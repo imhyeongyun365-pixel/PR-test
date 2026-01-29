@@ -62,10 +62,29 @@ ul, li {
     opacity: 1;
 }
 
+.main .content-wrap {
+    height: 300px;
+    position: relative;
+}
+
 .main .content {
+    position: absolute;
     width: 100%;
-    height: 100px;
-    background: red;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+
+.main .content.c0.active {
+    background-image: url(../img/hmy-content1.png);
+}
+.main .content.c1.active {
+    background-image: url(../img/hmy-content2.png);
+}
+.main .content.c2.active {
+    background-image: url(../img/hmy-content3.png);
 }
 
 .main .menu-list {
@@ -75,5 +94,15 @@ ul, li {
 }
 
 .main .menu-list .menu-item {
-    cursor: pointer;
+    margin: 10px 0;
+    
+}
+
+.main .menu-list .menu-item.on a {
+    display: inline-block;
+    width: 100%;
+    font-weight: 700;
+    background: #000;
+    color: rgb(169, 222, 240);
+    border-radius: 5px;
 }
