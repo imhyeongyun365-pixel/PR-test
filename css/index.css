@@ -15,6 +15,21 @@ header {
     text-align: center;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
 li {
     list-style: none;
+}
+
+li:hover {
+    background-color: rgba(0, 0, 0, 0.151);
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
 }
