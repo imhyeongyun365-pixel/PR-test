@@ -63,8 +63,8 @@ ul, li {
 }
 
 .main .content-wrap {
-    width: 100%;
     height: 300px;
+    position: relative;
 }
 
 .main .content {
